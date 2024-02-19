@@ -1,0 +1,1295 @@
+@-moz-document url-prefix("https://www.roblox.com") {
+    body#rbx-body.dark-theme.gotham-font.rogold.btr-no-hamburger {
+        background: #111;
+    }
+    
+    
+    .game-home-page-container {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        width: 1060px;
+        height: fit-content;
+        margin-left: 20px;
+    }
+    
+    
+    .dark-theme .scroller {
+        background: transparent;
+        border-radius: 5px;
+    }
+    
+    .dark-theme .scroller:hover {
+        transition: all 0.35s !important;
+        border-radius: 5px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82 !important;
+    }
+    
+    .dark-theme .scroller.disabled {
+        opacity: 0;
+    }
+    
+    #people-list-container .people-list-container {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 15px;
+        width: 1060px;
+        height: fit-content;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    
+    .home-interleave-divider {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    
+    .col-xs-12.container-header {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        width: 1060px;
+        height: 180px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    .dark-theme .rbx-header {
+        border-width: 0px;
+        background-color: rgba(25, 27, 29, 0.8);
+        backdrop-filter: blur(15px);
+        margin: 10px;
+        border-radius: 10px;
+        height: 55px;
+        padding: 5px;
+        border: 1px solid #80808036
+    }
+    
+    .rbx-left-col li:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82 !important;
+        padding: 5px;
+    }
+    
+    .rbx-left-col li {
+        transition: all 0.35s !important;
+    }
+    
+    .dark-theme .rbx-left-col {
+        border-radius: 10px;
+        background-color: rgba(25, 27, 29, 0.8);
+        backdrop-filter: blur(15px);
+        padding: 5px;
+        margin: 10px;
+        margin-right: 20px;
+        margin-top: 35px;
+        height: fit-content;
+        width: fit-content;
+        border: 1px solid #80808036
+    }
+    
+    .rbx-header .rbx-navbar-header {
+        display: none
+    }
+    
+    .rbx-header .rbx-navbar {
+        margin-left: 10px;
+        margin-top: 6px
+    }
+    
+    .rbx-header .rbx-navbar li:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82 !important;
+    }
+    
+    .rbx-header .rbx-navbar li {
+        transition: all 0.35s !important;
+    }
+    
+    .rbx-header .navbar-search {
+        margin-top: 9px;
+        margin-left: 20px;
+    }
+    
+    .rbx-header .navbar-search:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82 !important;
+    }
+    
+    .rbx-header .rbx-navbar-right {
+        margin-top: 3px
+    }
+    
+    .dark-theme .chat-container .chat-main .chat-header {
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .dark-theme .chat-main {
+        border-radius: 10px;
+        background-color: #191b1d;
+        margin-right: 10px;
+        height: fit-content
+    }
+    
+    div.game-carousel > div:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+    }
+    
+    .dark-theme .btn-common-play-game-lg {
+        transition: all 0.35s !important;
+        background: #3ce4b24f;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+        margin-bottom: 5px;
+        color: #1fec85 !important
+    }
+    
+    .dark-theme .btn-common-play-game-lg:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        padding: 10px;
+    }
+    
+    div.game-carousel > div {
+        transition: all 0.35s !important;
+    }
+    
+    div.game-grid.home-game-grid > div:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+    }
+    
+    div.game-grid.home-game-grid > div {
+        transition: all 0.35s !important;
+    }
+    
+    .people-list .friend:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+    }
+    
+    .people-list .friend {
+        transition: all 0.35s !important;
+    }
+    
+    .dark-theme .alert-warning,
+    .light-theme .alert-warning,
+    .dark-theme .alert-success,
+    .light-theme .alert-success {
+        top: -60px;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    
+    .alert-system-feedback .alert {
+        transition: top .4s ease;
+    }
+    
+    .dark-theme .container-footer {
+        border-radius: 25px 25px 0px 0px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        width: fit-content;
+        height: auto
+    }
+    
+    #footer-container > div > ul > li {
+        transition: all 0.35s !important;
+    }
+    
+    #footer-container > div > ul > li:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        padding: 5px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+    }
+    
+    .btn-secondary-xs.see-all-link-icon.btn-more {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        width: 140px;
+        border: 1px solid #42d6aa82;
+        margin-bottom: 5px;
+        color: #1fec85 !important
+    }
+    
+    .btn-secondary-xs.see-all-link-icon.btn-more:hover {
+        transition: all 0.35s !important;
+        background: #42d6aa;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        width: 140px;
+        border: 1px solid #3ce4b20d;
+        margin-bottom: 5px;
+        color: white !important
+    }
+    
+    #right-navigation-header > div.navbar-right.rbx-navbar-right > ul > li {
+        transition: all 0.35s !important;
+        background: transparent
+    }
+    
+    #right-navigation-header > div.navbar-right.rbx-navbar-right > ul > li:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+    }
+    
+    .btn-secondary-xs.see-all-link-icon.btn-more::after {
+        display: none
+    }
+    
+    .container-main {
+        background: transparent
+    }
+    
+    .dark-theme .content {
+        background: transparent
+    }
+    
+    .popover.bottom.people-info-card-container {
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        width: fit-content;
+        height: fit-content
+    }
+    
+    .people-info-card-container .interaction-container {
+        background: transparent
+    }
+    }
+    
+    @-moz-document regexp("^https:\\/\\/www\\.roblox\\.com\\/users\\/\\d+\\/profile.*"), regexp("^https:\\/\\/web\\.roblox\\.com\\/users\\/\\d+\\/profile.*") {
+    #people-list-container .people-list-container {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(20px);
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .people-list .friend:hover {
+        background-color: transparent;
+        padding: 0px
+    }
+    
+    .profile-header .profile-header-content {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(20px);
+        padding: 20px;
+        height: fit-content;
+        margin-top: 50px
+    }
+    
+    div.placeholder-games {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(20px);
+        padding: 20px;
+        height: fit-content;
+        margin-bottom: 20px
+    }
+    
+    .placeholder-games .section-content {
+        background-color: transparent
+    }
+    
+    .btr-profile-about {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(20px);
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .btr-profile-about > .section-content {
+        background: transparent
+    }
+    
+    .btr-profile-favorites {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .btr-profile-favorites > .section-content {
+        background: transparent
+    }
+    
+    #roblox-badges-container.section {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 20px;
+        backdrop-filter: blur(15px);
+    }
+    
+    #roblox-badges-container.section > .section-content {
+        background: transparent
+    }
+    
+    .btr-profile-playerbadges {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .btr-profile-playerbadges > .section-content {
+        background: transparent
+    }
+    
+    .btr-profile-groups {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    .btr-profile-groups > .section-content {
+        background: transparent
+    }
+    
+    .profile-container .profile-game {
+        border-radius: 25px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    
+    .profile-container .profile-game > .section-content {
+        background: transparent
+    }
+    
+    .btr-game-button {
+        border-radius: 10px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/discover#") {
+    #games-carousel-page {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, .8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 1400px
+    }
+    
+    .dark-theme .horizontal-scroller .scroller .spacer {
+        width: 80px;
+        background: rgb(25, 27, 29);
+    }
+    
+    ul.hlist.games.game-cards.game-tile-list > li:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+    }
+    
+    ul.hlist.games.game-cards.game-tile-list > li {
+        transition: all 0.35s !important;
+    }
+    
+    .game-cards .game-card {
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+        margin-right: 14px
+    }
+    
+    #randomGameButton {
+        margin-top: 60px;
+        margin-right: 100px;
+    }
+    }
+    
+    @-moz-document regexp("https://www.roblox.com/games/\\d+\\/.*"), regexp("https://www.roblox.com/games/\\d+\\/.*") {
+    div.col-xs-12.btr-game-main-container.section-content {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .dark-theme .thumbnail-2d-container,
+    #game-details-carousel-container {
+        border-radius: 20px
+    }
+    
+    .stack.social-links.ng-scope {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #game-detail-page > div.col-xs-12.rbx-tabs-horizontal > div {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px
+    }
+    
+    #game-instances,
+    #store,
+    .dark-theme .stack .card-list .card-item {
+        background: transparent
+    }
+    
+    .btr-gamedetails .server-list-section:not(#rbx-private-running-games) .card-list .card-item {
+        border-radius: 20px;
+        background: rgba(42, 44, 46, 0.8);
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    #rbx-private-game-server-item-container > li {
+        margin-bottom: 10px;
+        border-radius: 20px;
+        background: rgba(42, 44, 46, 0.8);
+        padding: 20px;
+        border: none
+    }
+    
+    .profile-container > .ng-scope > .rbx-tabs-horizontal > ul > li > a,
+    .profile-container > .ng-scope > .rbx-tabs-horizontal > ul > li,
+    #game-detail-page > .rbx-tabs-horizontal > ul > li > a,
+    #game-detail-page > .rbx-tabs-horizontal > ul > li,
+    .group-details > .ng-scope > .rbx-tabs-horizontal > ul > li > a,
+    .group-details > .ng-scope > .rbx-tabs-horizontal > ul > li,
+    .nav.nav-tabs > li,
+    .nav.nav-tabs > li > a {
+        transition: all 0.35s !important;
+        box-shadow: none !important
+    }
+    
+    .rbx-tab,
+    .dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover) {
+        background: transparent;
+    }
+    
+    #horizontal-tabs {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    #horizontal-tabs > li {
+        transition: all 0.35s !important;
+    }
+    
+    #horizontal-tabs > li:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    #rbx-subscriptions-container-content > div.card-spacing-bottom > div > div > div.subscription-options-container > button {
+        margin-right: 20px;
+        margin-top: 5px
+    }
+    
+    #store .store-cards .store-card {
+        border-radius: 10px;
+        background: rgba(57, 59, 61);
+        backdrop-filter: blur(15px);
+        margin-right: 10px;
+        border: none;
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    #game-details-play-button-container > button:nth-child(1),
+    #game-details-play-button-container > button.btn-full-width.btn-common-play-game-lg.btn-primary-md.btn-min-width.random-server-button {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    #game-details-play-button-container > button:nth-child(1):hover,
+    #game-details-play-button-container > button.btn-full-width.btn-common-play-game-lg.btn-primary-md.btn-min-width.random-server-button:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        padding: 10px;
+    }
+    
+    .dark-theme .stack .stack-list .stack-row {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        height: 190px
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/my/messages/#!/inbox"), url-prefix("https://www.roblox.com/my/messages/#!/notifications"), url-prefix("https://www.roblox.com/my/messages/#!/archive"), url-prefix("https://www.roblox.com/my/messages/#!/sent") {
+    #private-message > div > ul {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    .rbx-tab:not(.active) a:not(:hover),
+    #private-message > div > ui-view > div > div.roblox-message-body.ng-scope > div {
+        background: transparent
+    }
+    
+    .profile-container > .ng-scope > .rbx-tabs-horizontal > ul > li > a,
+    .profile-container > .ng-scope > .rbx-tabs-horizontal > ul > li,
+    #game-detail-page > .rbx-tabs-horizontal > ul > li > a,
+    #game-detail-page > .rbx-tabs-horizontal > ul > li,
+    .group-details > .ng-scope > .rbx-tabs-horizontal > ul > li > a,
+    .group-details > .ng-scope > .rbx-tabs-horizontal > ul > li,
+    .nav.nav-tabs > li,
+    .nav.nav-tabs > li > a {
+        transition: all 0.35s !important;
+        box-shadow: none !important
+    }
+    
+    #private-message > div > ul > li:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    #private-message {
+        margin-top: 30px
+    }
+    
+    #private-message > h1 {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        width: fit-content
+    }
+    
+    #private-message > div > ui-view > div {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    .dark-theme .messages .messageDivider.unread,
+    .dark-theme .messages .messageDivider .unread {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    .dark-theme .messages .messageDivider,
+    #private-message > div > ui-view > div > div.roblox-message-body.ng-scope {
+        border-radius: 20px;
+        background: rgba(205, 109, 109, .17);
+        border: 1px solid #e4848436;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-bottom: 10px
+    }
+    
+    .dark-theme .messages .messageDivider.message-news {
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/users/friends#!") {
+    #friends-container {
+        margin-top: 30px
+    }
+    
+    #friends-container > div > div.page-header.section {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        width: fit-content;
+        height: fit-content;
+        color: #7eb1f3
+    }
+    
+    .rbx-tab,
+    .dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover),
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > ul > li > a:not(:hover),
+    .dark-theme .avatar-card-btns {
+        background: transparent;
+    }
+    
+    .nav.nav-tabs > li,
+    .nav.nav-tabs > li > a {
+        transition: all 0.35s !important;
+        box-shadow: none !important
+    }
+    
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > ul,
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > div > div > div.friends-content.section {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-top: 15px
+    }
+    
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > ul > li {
+        transition: all 0.35s !important;
+    }
+    
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > ul > li:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    .dark-theme .friends-content .avatar-card-content {
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    .dark-theme .btn-secondary-md {
+        transition: all 0.35s !important;
+        border: none;
+        color: white
+    }
+    
+    .dark-theme .btn-secondary-md:hover {
+        transition: all 0.35s !important;
+        border-radius: 10px;
+        background: rgba(205, 109, 109, .17);
+        border: 1px solid #e4848436;
+        backdrop-filter: blur(15px);
+        color: #e48484
+    }
+    
+    .dark-theme .avatar-card-btns .accept-friend {
+        transition: all 0.35s !important;
+        background: transparent;
+        color: white;
+        border: none
+    }
+    
+    .dark-theme .avatar-card-btns .accept-friend:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    #friends-container > div > div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal > div > div > div > div > div > button {
+        border-radius: 10px;
+        background: rgba(205, 109, 109, .17);
+        border: 1px solid #e4848436;
+        backdrop-filter: blur(15px);
+        color: #e48484;
+        padding: 10px
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/my/avatar") {
+    #avatar-container > div > div > div:nth-child(3) > div {
+        top: -50px
+    }
+    
+    #avatar-container,
+    #avatar-container > div > div > div.right-panel.six-column > div.right-wrapper-placeholder.right-wrapper-placeholder-six-column > div,
+    #avatar-container > div > div > div.left-wrapper-placeholder > div > div.section-content.remove-panel > div:nth-child(1) > div {
+        margin-top: 30px
+    }
+    
+    #avatar-container > div > div > div.avatar-editor-header {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        height: fit-content;
+        color: #7eb1f3;
+        margin-bottom: 20px
+    }
+    
+    #avatar-container > div > div > div.avatar-editor-header > div {
+        margin-top: 25px;
+        margin-right: 10px;
+        color: #1fec85
+    }
+    
+    #avatar-container > div > div > div.avatar-editor-header > h1 {
+        margin-left: 10px
+    }
+    
+    #avatar-container > div > div > div.avatar-editor-header > div > a {
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    .dark-theme #wrap.pinned .right-wrapper:before {
+        background: transparent
+    }
+    
+    #avatar-container > div > div > div.left-wrapper-placeholder > div > div.section-content.remove-panel > div:nth-child(1) > div {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+    }
+    
+    #horizontal-tabs,
+    #avatar-container > div > div > div.right-panel.six-column > div.tab-content.rbx-tab-content,
+    .tab-horizontal-submenu.six-column {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    #avatar-container > div > div > div.right-panel.six-column > div.tab-content.rbx-tab-content {
+        margin-top: 50px
+    }
+    
+    .items-list.avatar-item-list .item-card.six-column {
+        transition: all 0.35s !important;
+        margin: 10px;
+        width: fit-content;
+    }
+    
+    .items-list.avatar-item-list .item-card.six-column:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important
+    }
+    
+    #avatar-container > div > div > div.right-panel.six-column > div.tab-content.rbx-tab-content > div:nth-child(2) > ul {
+        color: #1fec85
+    }
+    
+    .dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover) {
+        background: transparent
+    }
+    
+    #horizontal-tabs > li {
+        transition: all 0.35s !important;
+        box-shadow: none
+    }
+    
+    #horizontal-tabs > li:hover,
+    .tab-horizontal-submenu.six-column > div > ul > li:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+    }
+    
+    .dark-theme .rbx-tabs-horizontal .rbx-tab.active .rbx-tab-heading {
+        box-shadow: none
+    }
+    }
+    
+    @-moz-document regexp("^https:\\/\\/www\\.roblox\\.com\\/users\\/\\d+\\/inventory.*") {
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.pager-holder > ul > li.pager-next,
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.pager-holder > ul > li.pager-prev {
+        transition: all 0.35s !important;
+        background: transparent
+    }
+    
+    #inventory-container {
+        margin-top: 30px;
+        margin-left: -40px
+    }
+    
+    #inventory-container > inventory > div > h1 {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        height: fit-content;
+        color: #7eb1f3;
+        margin-bottom: 20px;
+        width: fit-content
+    }
+    
+    .rbx-tabs-vertical .tab-content-group,
+    .menu-vertical .menu-option .menu-secondary-container {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    .dark-theme .item-card {
+        transition: all 0.35s !important;
+        width: fit-content;
+        margin: 10px
+    }
+    
+    
+    .dark-theme .item-card:hover,
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.pager-holder > ul > li.pager-next:hover,
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.pager-holder > ul > li.pager-prev:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+    }
+    
+    .container-header .header-content .get-more-text {
+        color: #1fec85
+    }
+    
+    .dark-theme .container-header .btn-more.btn-growth-md,
+    .light-theme .container-header .btn-more.btn-growth-md {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+    }
+    
+    .dark-theme .container-header .btn-more.btn-growth-md:hover,
+    .light-theme .container-header .btn-more.btn-growth-md:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        color: white !important
+    }
+    
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.container-header > div:nth-child(3) {
+        margin-top: 5px
+    }
+    
+    #inventory-container > inventory > div > assets-explorer > div > div > div.tab-content.rbx-tab-content > div > div.container-header > div.assets-explorer-title > div > ul {
+        color: #1fec85
+    }
+    
+    #vertical-menu,
+    .dark-theme .menu-vertical .menu-option .menu-secondary,
+    .dark-theme .menu-vertical .menu-option .menu-secondary-option.active {
+        background: transparent
+    }
+    
+    .dark-theme .menu-vertical .menu-option.active,
+    .dark-theme .menu-vertical .menu-option.active > a,
+    .dark-theme .menu-vertical .menu-option .menu-option-content:hover,
+    .menu-vertical .menu-option .menu-option-content.active,
+    .menu-vertical .menu-option .menu-option-content:active,
+    .menu-vertical .menu-option .menu-option-content:focus,
+    .menu-vertical .menu-option .menu-option-content:hover,
+    .dark-theme .menu-vertical .menu-option:hover,
+    .dark-theme .menu-vertical .menu-option .menu-secondary {
+        box-shadow: none
+    }
+    
+    #vertical-menu > li > a {
+        transition: all 0.35s !important;
+    }
+    
+    #vertical-menu > li > a:hover,
+    .dark-theme .menu-vertical .menu-option .menu-secondary > li:hover {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        box-shadow: none
+    }
+    
+    #inventory-container > inventory > div > div > recommendations > div > div.current-items > div {
+        display: none
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/catalog/") {
+    .page-content {
+        margin-top: 40px
+    }
+    
+    #item-container > div.remove-panel.section-content.top-section.btr-preview-active {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    #item-container > div.remove-panel.section-content.top-section.btr-preview-active > div.btr-preview-container-itempage,
+    .dark-theme .btr-preview-container {
+        margin-top: 30px;
+        background: transparent
+    }
+    
+    #toggle-favorite {
+        transition: all 0.35s !important;
+        border-radius: 20px;
+        background: rgba(175, 165, 109, .14);
+        border: 1px solid #cfbe4636;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        color: #cfbe46 !important
+    }
+    
+    #toggle-favorite:hover {
+        transition: all 0.35s !important;
+        border-radius: 20px;
+        background: #cfbe46;
+        border: 1px solid rgba(175, 165, 109, .14);
+        backdrop-filter: blur(15px);
+        padding: 10px;
+    }
+    
+    #item-details > div.price-row-container > div > div > div.price-info.row-content > div.shopping-cart-buy-button.item-purchase-btns-container > div:nth-child(1) > button {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+    }
+    
+    #item-details > div.price-row-container > div > div > div.price-info.row-content > div.shopping-cart-buy-button.item-purchase-btns-container > div:nth-child(1) > button:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        color: white !important
+    }
+    
+    #item-container .item-context-menu {
+        top: 20px;
+        margin-right: 10px
+    }
+    
+    #item-container > div.remove-panel.section-content.top-section.btr-preview-active > div.btr-explorer-button-container.btr-temp-fixed,
+    #item-container .btr-download-button {
+        transition: all 0.35s !important;
+        margin-right: 10px;
+        margin-top: 5px
+    }
+    
+    #item-container > div.remove-panel.section-content.top-section.btr-preview-active > div.btr-explorer-button-container.btr-temp-fixed:hover,
+    #item-container .btr-download-button:hover,
+    #item-info-container-frontend > div > div.item-details-info-header.border-bottom.item-name-container > div.right > div.shopping-cart-btn-container > div > div {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        padding: 5px
+    }
+    
+    .shopping-cart-btn-container {
+        margin-top: -15px;
+        margin-right: 100px;
+        left: -20px
+    }
+    
+    .alert-system-feedback .alert {
+        transition: top .4s ease;
+        top: -300px
+    }
+    
+    #price-chart {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        margin-bottom: 30px
+    }
+    
+    #price-chart > asset-resale-data-pane > div.section-content.price-volume-charts-container,
+    #AjaxCommentsContainer > div.section-content.AddAComment {
+        background: transparent
+    }
+    
+    #recommendations-container > recommendations > div > div.current-items > div,
+    #populated-sponsored-catalog-items,
+    #wishlist {
+        display: none
+    }
+    #item-details-limited-inventory-container > div.item-details-limited-inventory,
+    #resellers,
+    .comments-container {
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+    }
+    
+    .resellers-container .vlist .list-item button {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        padding: 5px
+    }
+    
+    .resellers-container .vlist .list-item button:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        color: white !important
+    }
+    
+    #AjaxCommentsContainer > div.section-content.AddAComment > div.comments.vlist > div {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        padding: 5px;
+        margin: 10px
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/game-pass/") {
+    .dark-theme .section-content.remove-panel {
+        margin-top: 40px;
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px
+    }
+    
+    #AssetThumbnail {
+        background: transparent
+    }
+    }
+    
+    @-moz-document url-prefix("https://www.roblox.com/catalog") {
+    #catalog-content > div.search-bars.search-bar-placement-right {
+        border-radius: 20px;
+        background: rgba(43, 108, 173, .15);
+        border: 1px solid #7eb1f336;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        color: #7eb1f3;
+        margin-bottom: 20px;
+        position: sticky;
+        top: 80px
+    }
+    #catalog-content {
+        margin-top: 40px;
+        margin-left: 30px;
+        border-radius: 20px;
+        background: rgba(25, 27, 29, 0.8);
+        border: 1px solid #80808036;
+        backdrop-filter: blur(15px);
+        padding: 20px;
+        color: #1fec85 !important;
+    }
+    
+    #catalog-content > div.search-bars.search-bar-placement-right > div.clearfix.ng-scope,
+    #catalog-content > div.search-bars.search-bar-placement-right > h1 {
+        margin-top: 10px
+    }
+    
+    .alert-system-feedback .alert {
+        top: -300px
+    }
+    
+    #main-view > div > div > div.topic-container.ng-scope,
+    #shopping-cart-btn-entry > div.shopping-cart-btn-container > div > div {
+        background: transparent
+    }
+    
+    .dark-theme .topic-container .topic-carousel .topic,
+    .light-theme .topic-container .topic-carousel .topic {
+        background: transparent;
+        margin-top: 7px
+    }
+    
+    .dark-theme .topic-container .topic-carousel .topic:hover,
+    .light-theme .topic-container .topic-carousel .topic:hover,
+    .topic-container .topic-navigation-button:hover,
+    .catalog-container .catalog-content .search-bars .buy-btns-container .buy-robux {
+        transition: all 0.35s !important;
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+    }
+    
+    .topic-container .topic-navigation-blur-left,
+    .topic-container .topic-navigation-blur-right {
+        backdrop-filter: none
+    }
+    
+    #main-view > div > div > div.topic-container.ng-scope {
+        border-radius: 20px;
+        background: rgba(155, 155, 155, .09);
+        border: 1px solid #ffffff7d;
+        backdrop-filter: blur(15px);
+        padding: 10px;
+        color: #1fec85 !important;
+    }
+    
+    
+    #search-options-scrollbar-container,
+    #main-view > div > div > div.topic-container.ng-scope {
+        position: sticky;
+        top: 200px
+    }
+    
+    .shopping-cart-modal-container {
+        background: #3ce4b20d;
+        border-radius: 10px;
+        backdrop-filter: blur(15px);
+        border: 1px solid #42d6aa82;
+        color: #1fec85 !important;
+        margin-top: 30px
+    }
+    
+    .catalog-container .catalog-content .search-bars .buy-btns-container .buy-robux:hover {
+        transition: all 0.35s !important;
+        backdrop-filter: blur(15px);
+        background: #42d6aa;
+        border: 1px solid #3ce4b20d;
+        color: white !important
+    }
+    }
